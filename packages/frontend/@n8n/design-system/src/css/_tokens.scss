@@ -1,9 +1,10 @@
 @use 'sass:math';
 
 @mixin theme {
-	--color-primary-h: var(--prim-color-primary-h);
-	--color-primary-s: var(--prim-color-primary-s);
-	--color-primary-l: 68%;
+	// MODIFICADO PARA ROJO SANGRE BRILLANTE
+	--color-primary-h: 0;
+	--color-primary-s: 100%;
+	--color-primary-l: 45%; // Ajusta este valor (ej. 40% para más oscuro, 50% para más claro/puro)
 
 	// Primary tokens
 
